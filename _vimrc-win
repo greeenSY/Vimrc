@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim7.1ÔÚwindowsÏÂµÄ±àÂëÉèÖÃ¡£By Huadong.Liu
+" vim7.1åœ¨windowsä¸‹çš„ç¼–ç è®¾ç½®ã€‚By Huadong.Liu
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1
@@ -8,10 +8,10 @@ set fileencoding=chinese
 else
 set fileencoding=utf-8
 endif
-"½â¾ö²Ëµ¥ÂÒÂë
+"è§£å†³èœå•ä¹±ç 
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
-"½â¾öconsleÊä³öÂÒÂë
+"è§£å†³consleè¾“å‡ºä¹±ç 
 language messages zh_CN.utf-8
 
 
@@ -147,7 +147,7 @@ hi PMenuSbar guibg=#5A647E gui=NONE
 " thumb of the scrollbar in the popup
 hi PMenuThumb guibg=#AAAAAA gui=NONE
 
-"ÏÔÊ¾ĞĞºÅ£¬×Ô¶¯Ëõ½ø£¬ÏÂ»®Ïß£¬Ëõ½ø´óĞ¡£¬Êó±ê
+"æ˜¾ç¤ºè¡Œå·ï¼Œè‡ªåŠ¨ç¼©è¿›ï¼Œä¸‹åˆ’çº¿ï¼Œç¼©è¿›å¤§å°ï¼Œé¼ æ ‡
 set number
 set autoindent
 set cindent
