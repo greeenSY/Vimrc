@@ -1,5 +1,8 @@
 set nocompatible          "不要兼容vi
 filetype off              "必须的设置：
+syntax on
+
+color freya
 
 "Color Settings {
 set colorcolumn=85           "彩色显示第85行
@@ -94,21 +97,3 @@ nmap <leader>fj :set ft=javascript<CR>
 nmap <leader>fc :set ft=css<CR>
 nmap <leader>fx :set ft=xml<CR>
 nmap <leader>fm :set ft=mako<CR>
-"设置隐藏gvim的菜单和工具栏 F2切换
-set guioptions-=m
-set guioptions-=T
-"去除左右两边的滚动条
-set go-=r
-set go-=L
-map <silent> <F2> :if &guioptions =~# 'T' <Bar>
-        \set guioptions-=T <Bar>
-        \set guioptions-=m <bar>
-    \else <Bar>
-        \set guioptions+=T <Bar>
-        \set guioptions+=m <Bar>
-    \endif<CR>
-"Indent Guides设置
-"let g:indent_guides_guide_size=1
-"Vundle Settings {
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
